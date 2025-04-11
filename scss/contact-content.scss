@@ -1,0 +1,96 @@
+.contact-content {
+    width: 90%;
+    // background-color: pink;
+    min-height: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+
+    .contact-header {
+        text-align: center;
+        color: #000;
+        margin-top: 50px;
+    }
+
+    .contact-text{
+        text-align: center;
+        width: 70%;
+        height: 50px;
+        // background-color: lightblue;
+        margin: 0 auto;
+        letter-spacing: 1px;
+        font-size: 17px;
+        margin-top: 50px;
+    }
+
+    .contact-holder {
+        width: 100%;
+        min-height: 600px;
+        // background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-left: 50px;
+        margin-top: 50px;
+
+        .contact-left {
+            width: 40%;
+            min-height: 500px;
+            background-color: green;
+            background-image: url(../images/book2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .contact-right {
+            width: 50%;
+            height: 600px;
+            // background-color: indigo;
+            padding-top: 52px;
+
+            .contact-form {
+                width: 100%;
+                min-height: 439px;
+                // background-color: yellow;
+
+                input {
+                    width: 550px;
+                    height: 60px;
+                    border: none;
+                    margin-bottom: 21px;
+                    margin-left: 15px;
+                    padding: 0 20px;
+                    background-color:#ccd8bb;
+                    font-size: 16px;
+                }
+
+                textarea {
+                    width: 550px;
+                    height: 180px;
+                    margin-left: 15px;
+                    border: none;
+                    background-color: #ccd8bb;
+                    font-size: 16px;
+                    padding-left: 21px;
+                    padding-top: 21px;
+                }
+            }
+
+            .contact-button {
+                button {
+                    width: 167px;
+                    height: 60px;
+                    background-color: #cebddd;
+                    color: #44455d;
+                    font-size: 16px;
+                    border: none;
+                    margin-left: 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

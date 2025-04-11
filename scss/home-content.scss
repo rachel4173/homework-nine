@@ -1,0 +1,107 @@
+.home-content{
+    height: 2610px;
+    // background-color: pink;
+    .hero{
+        width: 100%;
+        height: 550px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/readinghero2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        letter-spacing: 10px;
+    }
+
+    .home-header{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: -10px;
+        letter-spacing: 15px;
+    }
+
+    .middle-home-holder{
+        width: 80%;
+        height: 300px;
+        background-color: #E1D3ED;
+        margin: 0 auto;
+        margin-top: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .middle-home-left{
+            width: 30%;
+            min-height: 300px;
+
+            img{
+                width: 356px;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+
+        .middle-home-right{
+            max-width: 700px;
+            min-height: 300px;
+            background-color: #E1D3ED;
+            padding-top: 40px;
+            font-size: 17px;
+            padding-left: 10px;
+            padding-right: 10px;
+            letter-spacing: 1px;
+        }
+    }
+
+    .home-text{
+        width: 75%;
+        height: 200px;
+        // background-color: lightblue;
+        margin: 0 auto;
+        margin-top: 100px;
+        font-size: 17px;
+        text-align: center;
+        padding-top: 50px;
+        letter-spacing: 1px;
+        font-size: 17px;
+    }
+
+    .home-gallery{
+        width: 100%;
+        height: 350px;
+        // background-color: purple;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        img{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .home-content{
+        height: 3800px;
+        .middle-home-holder{
+            height: 600px;
+            flex-direction: column;
+            flex: wrap;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .home-gallery{
+        gap: 20px;
+    }
+
+}

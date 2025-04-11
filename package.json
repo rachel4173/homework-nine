@@ -1,0 +1,19 @@
+{
+  "name": "homework-nine",
+  "version": "1.0.0",
+  "description": "Must create a project named homework-nine<br>\r Create a navigation bar that has four links<br>\r Add content to the page when you click on a link by using the MVC model and jQuery<br>\r Use only one page and load all the content onto that page<br>\r Site should be fully developed with content<br>\r Must navigate using the URL<br>\r Upload your project to Github and Web4 and add your Web4 link to the README file.<br>",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.86.3"
+  }
+}

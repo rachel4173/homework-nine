@@ -1,0 +1,68 @@
+.products-content{
+    height: 2400px;
+    // background-color: pink;
+
+    .products-hero{
+        height: 600px;
+        background-color: blue;
+        margin-bottom: 100px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/phero4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        letter-spacing: 10px;
+    }
+
+    .products-text{
+        text-align: center;
+        width: 70%;
+        height: 150px;
+        // background-color: lightblue;
+        margin: 0 auto;
+        letter-spacing: 1px;
+        font-size: 17px;
+        margin-bottom: 50px;
+
+    }
+    .products-gallery {
+            width: 100%;
+            min-height: 1280px;
+            // background-color: #9e9fc7;
+            padding-top: 35px;
+            margin-bottom: 100px;
+    
+            .products-picture-row {
+                width: 100%;
+                min-height: 370px;
+                // background-color: green;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-bottom: 35px;
+    
+                .products-picture-holder {
+                    width: 32%;
+                    min-height: 320px;
+                    background-color: #E1D3ED;
+                    padding: 20px;
+                    padding-bottom: 40px;
+    
+                    img {
+                        width: 100%;
+                        height: 280px;
+                        object-fit: cover;
+
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+    }
+}
