@@ -127,7 +127,8 @@ nav a:hover {
   }
 }
 .about-holder {
-  height: 1400px;
+  min-height: 1400px;
+  background-color: pink;
 }
 .about-holder .about-header {
   text-align: center;
@@ -168,14 +169,25 @@ nav a:hover {
   letter-spacing: 1px;
   font-size: 17px;
   padding-top: 40px;
+  padding-left: 20px;
 }
 
+@media (max-width: 1150px) {
+  .about-holder {
+    height: 2700px;
+  }
+  .about-holder .about-content-holder {
+    flex-direction: column;
+    flex: wrap;
+    height: 600px;
+    margin-bottom: 200px;
+  }
+}
 .products-content {
   height: 2400px;
 }
 .products-content .products-hero {
   height: 600px;
-  background-color: blue;
   margin-bottom: 100px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/phero4.jpg);
   background-size: cover;
@@ -263,7 +275,6 @@ nav a:hover {
 .contact-content .contact-holder .contact-left {
   width: 40%;
   min-height: 500px;
-  background-color: green;
   background-image: url(../images/book2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
